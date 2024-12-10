@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar-container {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+  
